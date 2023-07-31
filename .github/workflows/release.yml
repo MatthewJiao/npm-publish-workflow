@@ -38,7 +38,7 @@ jobs:
           title: Release
           commit: "[release]"
         env:
-          GITHUB_TOKEN: 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
+          GITHUB_TOKEN: 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
           NPM_TOKEN: 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
 
       # - name: Send Slack notifications
