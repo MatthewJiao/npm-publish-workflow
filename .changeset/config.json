@@ -4,7 +4,10 @@
     "overall config docs": "https://github.com/changesets/changesets/blob/main/docs/config-file-options.md",
     "changelog customization": "https://github.com/changesets/changesets/blob/main/docs/modifying-changelog-format.md"
   },
-  "changelog": ["@changesets/changelog-github", { "repo": "giavinh79/npm-publish-workflow" }],
+  "changelog": [
+    "@changesets/changelog-github",
+    { "repo": "MatthewJiao/npm-publish-workflow" }
+  ],
   "commit": false,
   "fixed": [],
   "linked": [],
