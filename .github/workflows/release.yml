@@ -39,7 +39,7 @@ jobs:
           commit: "[release]"
         env:
           GITHUB_TOKEN: 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
-          NPM_TOKEN: ${{ secrets.NPM_PUBLISH_ACCESS_TOKEN }}
+          NPM_TOKEN: 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
 
       # - name: Send Slack notifications
       #   if: steps.changesets.outputs.published == 'true'
