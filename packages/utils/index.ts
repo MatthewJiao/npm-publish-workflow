@@ -16,3 +16,9 @@ export const getSum2 = (numbers: number[]): number => {
     }, 0)
   );
 };
+
+export const getSum3 = (numbers: number[]): number => {
+  return numbers.reduce((acc, num) => {
+    return acc + num;
+  }, 0);
+};
