@@ -1751,24 +1751,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gl-publish-workflow-test-math@workspace:packages/math":
-  version: 0.0.0-use.local
-  resolution: "gl-publish-workflow-test-math@workspace:packages/math"
-  dependencies:
-    tsup: ^6.5.0
-    typescript: ^4.9.4
-  languageName: unknown
-  linkType: soft
-
-"gl-publish-workflow-test-utils@workspace:packages/utils":
-  version: 0.0.0-use.local
-  resolution: "gl-publish-workflow-test-utils@workspace:packages/utils"
-  dependencies:
-    tsup: ^6.5.0
-    typescript: ^4.9.4
-  languageName: unknown
-  linkType: soft
-
 "glob-parent@npm:^5.1.2, glob-parent@npm:~5.1.2":
   version: 5.1.2
   resolution: "glob-parent@npm:5.1.2"
@@ -2692,6 +2674,24 @@ __metadata:
   checksum: ec0e96b2fa099a051fe14477577e3da13f158690c64114a50ecd039694ca2cca1cb7c71a8755aaee8a3ef7229ef33408df822faa4d1d6123b52295eecf50620f
   languageName: node
   linkType: hard
+
+"mj-publish-workflow-test-math@workspace:packages/math":
+  version: 0.0.0-use.local
+  resolution: "mj-publish-workflow-test-math@workspace:packages/math"
+  dependencies:
+    tsup: ^6.5.0
+    typescript: ^4.9.4
+  languageName: unknown
+  linkType: soft
+
+"mj-publish-workflow-test-utils@workspace:packages/utils":
+  version: 0.0.0-use.local
+  resolution: "mj-publish-workflow-test-utils@workspace:packages/utils"
+  dependencies:
+    tsup: ^6.5.0
+    typescript: ^4.9.4
+  languageName: unknown
+  linkType: soft
 
 "mkdirp@npm:^1.0.3":
   version: 1.0.4
