@@ -1,5 +1,5 @@
 {
-  "name": "gl-publish-workflow-test-utils",
+  "name": "mj-publish-workflow-test-utils",
   "version": "1.0.0",
   "description": "Example Utils Package",
   "repository": "https://github.com/giavinh79/npm-publish-workflow",
