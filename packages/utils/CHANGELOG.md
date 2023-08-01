@@ -1,5 +1,11 @@
 # gl-publish-workflow-test-utils
 
+## 0.2.0
+
+### Minor Changes
+
+- [#1](https://github.com/MatthewJiao/npm-publish-workflow/pull/1) [`bdf33bd`](https://github.com/MatthewJiao/npm-publish-workflow/commit/bdf33bd6f0116ffb669b58d946d1cf70530577f3) Thanks [@MatthewJiao](https://github.com/MatthewJiao)! - Added new addition function
+
 ## 0.1.2
 
 ### Patch Changes
