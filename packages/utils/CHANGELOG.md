@@ -1,5 +1,23 @@
 # gl-publish-workflow-test-utils
 
+## 1.0.0
+
+### Major Changes
+
+- [#14](https://github.com/MatthewJiao/npm-publish-workflow/pull/14) [`c0c0651`](https://github.com/MatthewJiao/npm-publish-workflow/commit/c0c0651811cd6f0e029662f1ecabfbe7e9810c17) Thanks [@MatthewJiao](https://github.com/MatthewJiao)! - added function 8
+
+### Minor Changes
+
+- [#11](https://github.com/MatthewJiao/npm-publish-workflow/pull/11) [`c307e71`](https://github.com/MatthewJiao/npm-publish-workflow/commit/c307e710a80b39f9b2e5527de9b3f43772c71c57) Thanks [@MatthewJiao](https://github.com/MatthewJiao)! - added function 5
+
+- [#12](https://github.com/MatthewJiao/npm-publish-workflow/pull/12) [`c58eb82`](https://github.com/MatthewJiao/npm-publish-workflow/commit/c58eb82b38e0940bf134b81700de8b03133a33a3) Thanks [@MatthewJiao](https://github.com/MatthewJiao)! - added function 6
+
+- [#9](https://github.com/MatthewJiao/npm-publish-workflow/pull/9) [`e590be7`](https://github.com/MatthewJiao/npm-publish-workflow/commit/e590be771014dcadb6791d70c5e075ddeceb6df0) Thanks [@MatthewJiao](https://github.com/MatthewJiao)! - added function 4
+
+### Patch Changes
+
+- [#13](https://github.com/MatthewJiao/npm-publish-workflow/pull/13) [`23b21c7`](https://github.com/MatthewJiao/npm-publish-workflow/commit/23b21c7798853ac1ab079ba5e3052244c5559e56) Thanks [@MatthewJiao](https://github.com/MatthewJiao)! - added function 7
+
 ## 0.2.0
 
 ### Minor Changes
