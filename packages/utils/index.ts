@@ -28,3 +28,9 @@ export const getSum4 = (numbers: number[]): number => {
     return acc + num;
   }, 0);
 };
+
+export const getSum5 = (numbers: number[]): number => {
+  return numbers.reduce((acc, num) => {
+    return acc + num;
+  }, 0);
+};
