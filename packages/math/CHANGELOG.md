@@ -1,5 +1,11 @@
 # gl-publish-workflow-test-math
 
+## 0.5.0
+
+### Minor Changes
+
+- [#18](https://github.com/MatthewJiao/npm-publish-workflow/pull/18) [`b0cfe59`](https://github.com/MatthewJiao/npm-publish-workflow/commit/b0cfe59b60ac223e900e1143b6903b9fbbba55d1) Thanks [@MatthewJiao](https://github.com/MatthewJiao)! - added function 9
+
 ## 0.4.0
 
 ### Minor Changes
