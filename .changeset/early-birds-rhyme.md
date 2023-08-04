@@ -2,7 +2,7 @@
 "mj-publish-workflow-test-utils": minor
 ---
 
-**Docs**
+**Docs Next**
 
 - [Tabs]: Update something about this 1
 - [Popper]: Update something about this 2
