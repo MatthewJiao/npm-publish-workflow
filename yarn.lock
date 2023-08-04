@@ -4234,6 +4234,8 @@ __metadata:
   dependencies:
     "@changesets/changelog-github": ^0.4.8
     "@changesets/cli": ^2.26.0
+    "@changesets/get-github-info": ^0.5.2
+    "@changesets/types": ^5.2.1
   languageName: unknown
   linkType: soft
 
