@@ -1,5 +1,31 @@
 # mj-publish-workflow-test-utils
 
+## 1.2.0
+
+### Minor Changes
+
+- **Docs**
+
+  - [Tabs]: Update something about this 1
+  - [Popper]: Update something about this 2
+  - [Popover]: Update something about this 3
+
+- **Docs Next**
+
+  - [Tabs]: Update something about this 1
+  - [Popper]: Update something about this 2
+  - [Popover]: Update something about this 3
+
+- **Components**
+
+  - [Tabs]: Update something about this 1
+  - [Popper]: Update something about this 2
+  - [Popover]: Update something about this 3
+
+### Patch Changes
+
+- test
+
 ## 1.1.1
 
 ### Patch Changes
