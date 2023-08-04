@@ -5,7 +5,7 @@
     "changelog customization": "https://github.com/changesets/changesets/blob/main/docs/modifying-changelog-format.md"
   },
   "changelog": [
-    "@changesets/changelog-github",
+    "./my-changelog-config.ts",
     { "repo": "MatthewJiao/npm-publish-workflow" }
   ],
   "commit": false,
