@@ -32,6 +32,11 @@ jobs:
       - name: Pre-release formatting
         run: yarn pre-release-formatting
 
+      - name: Commit changes
+        run: |
+          git add .changeset/
+          git commit -m "Pre-release formatting changes" || echo "No changes to commit"
+
       - name: Create Release Pull Request or Publish
         id: changesets
         uses: changesets/action@v1
