@@ -29,6 +29,9 @@ jobs:
 
       - run: yarn install --frozen-lockfile
 
+      - name: Pre-release formatting
+        run: yarn pre-release-formatting
+
       - name: Create Release Pull Request or Publish
         id: changesets
         uses: changesets/action@v1
