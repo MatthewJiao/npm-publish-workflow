@@ -28,6 +28,7 @@ process_files() {
       done
 
       ls -l $file
+      chmod u+w $file
       rm $file # Deleting the processed file
     fi
   done
