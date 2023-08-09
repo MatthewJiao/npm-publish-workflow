@@ -29,8 +29,10 @@ jobs:
 
       - run: yarn install --frozen-lockfile
 
+      - run: ls -la .changeset
       - name: Pre-release formatting
         run: yarn pre-release-formatting
+      - run: ls -la .changeset
 
       - name: Commit changes
         run: |
