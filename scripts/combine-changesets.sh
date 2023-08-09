@@ -28,8 +28,9 @@ process_files() {
       done
 
       ls -l $file
+      echo "${file} test"
       chmod u+w $file
-      rm $file # Deleting the processed file
+      rm "./${dir}/${file}" # Deleting the processed file
     fi
   done
 
