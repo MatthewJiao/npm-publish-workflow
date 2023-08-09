@@ -29,11 +29,15 @@ jobs:
 
       - run: yarn install --frozen-lockfile
 
+      - run: ls -la .changeset
       - name: Pre-release formatting
         run: yarn pre-release-formatting
+      - run: ls -la .changeset
 
       - name: Commit changes
         run: |
+          git config --global user.email "jiaomatthew222@gmail.com"
+          git config --global user.name "Matthew Jiao"
           git add .changeset/
           git commit -m "Pre-release formatting changes" || echo "No changes to commit"
 
