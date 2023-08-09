@@ -27,6 +27,7 @@ process_files() {
         echo "- $summary" >> "${tmp_dir}/${subheading}.txt"
       done
 
+      ls -l $file
       rm $file # Deleting the processed file
     fi
   done
