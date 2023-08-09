@@ -6,7 +6,7 @@ process_files() {
   local package_name=$1
   local bump_type=$2
 
-  local output_file="${dir}/${package_name}-${bump_type}.md"
+  local output_file="${dir}/formatted-${package_name}-${bump_type}.md"
   tmp_dir=$(mktemp -d)
   tmp_output_file=$(mktemp)
 
