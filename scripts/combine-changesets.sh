@@ -30,7 +30,7 @@ process_files() {
       ls -l $file
       echo "${file} test"
       chmod u+w $file
-      rm "./${dir}/${file}" # Deleting the processed file
+      rm $file # Deleting the processed file
     fi
   done
 
