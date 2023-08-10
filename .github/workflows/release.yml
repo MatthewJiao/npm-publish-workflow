@@ -46,6 +46,7 @@ jobs:
         uses: changesets/action@v1
         with:
           # comment out publish to avoid auto-publishing to NPM
+          version: yarn custom-version
           publish: yarn release
           title: Release
           commit: "[release]"
