@@ -27,9 +27,6 @@ process_files() {
         echo "- $summary" >> "${tmp_dir}/${subheading}.txt"
       done
 
-      ls -l $file
-      echo "${file} test"
-      chmod u+w $file
       rm -v $file || echo "Failed to delete: exit status: $?"
     fi
   done
