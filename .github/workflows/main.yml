@@ -1,4 +1,4 @@
-name: CI
+name: CI and Formatting Check
 on:
   pull_request:
     branches:
