@@ -20,8 +20,8 @@ process_files() {
       fi
 
       sed -n -e '/^---$/,/^---$/!p' $file | tail -n +2 | while read -r line; do
-        subheading=$(echo $line | awk -F '[][]' '{print $2}')
-        summary=$(echo $line | cut -d ']' -f 2-)
+        subheading=$(echo $line | awk -F '[<>]' '{print $2}')
+        summary=$(echo $line | cut -d '>' -f 2-)
         echo "- $summary" >> "${tmp_dir}/${subheading}.txt"
       done
 
