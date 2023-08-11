@@ -3,7 +3,7 @@ name: Check Changeset Formatting
 on:
   pull_request:
     paths:
-      - "changeset/*.md"
+      - ".changeset/*.md"
 
 jobs:
   check-formatting:
