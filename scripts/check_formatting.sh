@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CHANGESET_DIR="./.changeset"
+CHANGESET_DIR=".changeset"
 
 for file in $CHANGESET_DIR/*.md; do
     # Check for package name and semver-bump-type
