@@ -12,7 +12,8 @@
     "build": "yarn workspaces foreach -pt -v --no-private exec 'yarn lint && yarn build'",
     "release": "yarn build-ci && changeset publish",
     "pre-release-formatting": "./scripts/combine-changesets.sh",
-    "custom-version": "yarn pre-release-formatting && yarn changeset version"
+    "custom-version": "yarn pre-release-formatting && yarn changeset version",
+    "check_formatting": "./scripts/check_formatting.sh"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.8",
