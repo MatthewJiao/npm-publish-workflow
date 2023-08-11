@@ -14,7 +14,7 @@ for file in $CHANGESET_DIR/*.md; do
     # Check for subheadings
     while IFS= read -r line; do
         if [[ -n $line ]]; then
-            if ! echo "$line" | grep -qE '^\[.*\].+'; then
+            if ! echo "$line" | grep -qE '^<.*>.+'; then
                 echo "Invalid format in $file (subheading or summary missing or incorrect)"
                 ERROR_FOUND=1
                 break 2
