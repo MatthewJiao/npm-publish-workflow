@@ -1,0 +1,16 @@
+name: Check Changeset Formatting
+
+on:
+  pull_request:
+    paths:
+      - "changeset/*.md"
+
+jobs:
+  check-formatting:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Check changeset file format
+        run: yarn check_formatting
