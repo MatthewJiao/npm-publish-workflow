@@ -18,6 +18,9 @@ jobs:
 
       - run: yarn install --frozen-lockfile
 
+      - name: Give execute permission to check_formatting script
+        run: chmod +x ./scripts/check_formatting.sh
+
       - name: Check changeset file format
         run: yarn check_formatting
 
