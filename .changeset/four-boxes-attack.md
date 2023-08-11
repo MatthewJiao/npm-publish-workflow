@@ -2,4 +2,4 @@
 "mj-publish-workflow-test-utils": minor
 ---
 
-test
+[Docs][Avatar]: Update something about this 2

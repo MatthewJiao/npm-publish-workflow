@@ -10,10 +10,19 @@ for file in $CHANGESET_DIR/*.md; do
     fi
 
     # Check for subheadings
-    if ! tail -n +4 $file | grep -qE '^\[.*\] .+'; then
-        echo "Invalid format in $file (subheading or summary missing or incorrect)"
-        exit 1
-    fi
+    # Check for subheadings, filtering out empty lines
+    # Start by reading from the 4th line onward
+    tail -n +4 $file | while IFS= read -r line; do
+        # Check if line is not empty
+        if [[ -n $line ]]; then
+            # Check if the line matches the desired format
+            if ! echo "$line" | grep -qE '^\[.*\].+'; then
+                echo "Invalid format in $file (subheading or summary missing or incorrect)"
+                exit 1
+            fi
+        fi
+    done
+
 done
 
 echo "All changeset files have valid format."
