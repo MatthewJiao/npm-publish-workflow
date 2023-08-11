@@ -14,5 +14,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - run: yarn install --frozen-lockfile
+
       - name: Check changeset file format
         run: yarn check_formatting
