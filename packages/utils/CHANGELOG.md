@@ -1,5 +1,19 @@
 # mj-publish-workflow-test-utils
 
+## 1.4.0
+
+### Minor Changes
+
+- **Docs Next**
+
+  - [Menu] Update menu focus
+
+  **Docs**
+
+  - [Popover] Update this
+  - [Button] Add blue variation to button component
+  - [Icon] Add blue variation to Icon component
+
 ## 1.3.0
 
 ### Minor Changes
