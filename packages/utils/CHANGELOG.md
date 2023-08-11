@@ -1,5 +1,23 @@
 # mj-publish-workflow-test-utils
 
+## 1.3.0
+
+### Minor Changes
+
+- **Docs Next**
+
+  - [Menu]: Update something about this 3
+  - [Button]: Update something about this 1
+  - [Avatar]: Update something about this 2
+  - [Avatar]: Update something about this 2
+
+  **Docs**
+
+  - [Popover]: Update something about this 3
+  - [New Component] Added focus on enter
+  - [Tabs]: Update something about this 1
+  - [Popper]: Update something about this 2
+
 ## 1.2.0
 
 ### Minor Changes
