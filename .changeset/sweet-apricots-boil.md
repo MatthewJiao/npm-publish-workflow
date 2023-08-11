@@ -2,4 +2,4 @@
 "mj-publish-workflow-test-utils": minor
 ---
 
-(Docs)[Button] Add blue variation to button component
+<Docs>[Button] Add blue variation to button component
