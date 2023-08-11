@@ -5,7 +5,7 @@ ERROR_FOUND=0  # This is a flag to track if an error is found
 
 for file in $CHANGESET_DIR/*.md; do
     # Check for package name and semver-bump-type
-    if ! (head -n 1 $file | grep -qE '^---$' && head -n 2 $file | tail -n 1 | grep -qE '^".+": (major|minor|patch)$'); then
+    if ! (head -n 1 $file | grep -qE '^---$' && head -n 2 $file | tail -n 1 | grep -qE '^".+": (major|minor|patch)$' && head -n 3 $file | tail -n 1 | grep -qE '^---$'); then
         echo "Invalid format in $file (package name and semver-bump-type missing or incorrect)"
         ERROR_FOUND=1
         break  # Exit the loop if an error is found
