@@ -13,10 +13,8 @@ process_files() {
   # Process files by package name and bump type
   find $dir -name '*.md' | while read file; do
     if grep -q "\"$package_name\": $bump_type" $file; then
-      # Package name and bump type
       package_info="\"${package_name}\": ${bump_type}"
 
-      # Check if the package information is already written to the file
       if ! grep -q -- "$package_info" $tmp_output_file; then
         echo -e "---\n$package_info\n---\n" >> $tmp_output_file
       fi
@@ -42,7 +40,6 @@ process_files() {
     echo "Changesets combined into $output_file!"
   fi
 
-  # Remove temporary directory and file
   rm -r "$tmp_dir"
   rm "$tmp_output_file"
 }
