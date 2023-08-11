@@ -2,4 +2,4 @@
 "mj-publish-workflow-test-utils": minor
 ---
 
-[Docs][Popper]: Update something about this 2
+Update something about this 2
