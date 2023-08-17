@@ -1,5 +1,13 @@
 # mj-publish-workflow-test-utils
 
+## 1.5.0
+
+### Minor Changes
+
+- **Docs**
+  - [Button] Update color variant
+  - [Button] Added new variant for color
+
 ## 1.4.0
 
 ### Minor Changes
