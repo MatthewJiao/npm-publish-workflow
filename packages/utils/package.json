@@ -1,6 +1,6 @@
 {
   "name": "mj-publish-workflow-test-utils",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Example Utils Package",
   "repository": "https://github.com/giavinh79/npm-publish-workflow",
   "author": "giavinh79",
